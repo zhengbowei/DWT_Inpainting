@@ -16,16 +16,16 @@ public datasets demonstrate that the proposed approach outperforms current state
 Detailed description of the system can be found in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157). 
 
 # Acknowledgments
-The codes are modified from https://github.com/daa233/generative-inpainting-pytorch and https://github.com/fbcotter/pytorch_wavelets.
+The codes are based on https://github.com/daa233/generative-inpainting-pytorch and https://github.com/fbcotter/pytorch_wavelets.
 
 # Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).
 
 ` ``
 @article{li2021detail,
-
+` ``
   title={Detail-enhanced image inpainting based on discrete wavelet transforms},
-  
+` ``
   author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},
   
   journal={Signal Processing},
