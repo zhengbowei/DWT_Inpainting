@@ -16,7 +16,10 @@ public datasets demonstrate that the proposed approach outperforms current state
 Detailed description of the system can be found in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157). 
 
 ## Our framework
-![framework]() 
+![framework](https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png) 
+
+## Result
+![result1](https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/result1.png) 
 
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
