@@ -16,15 +16,23 @@ public datasets demonstrate that the proposed approach outperforms current state
 Detailed description of the system can be found in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157). 
 
 ## Our framework
-
 <img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png" width="200" alt="framework"/>
 
 ## Result
-
 <img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/result1.png" width="200" alt="result"/>
+
+## Prerequisites
+* Python 3
+* PyTorch 1.1.0
+* NVIDIA GPU + CUDA cuDNN
 
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
+
+## Datasets
+
+## Getting Started
+### 1) Training
 
 ## Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).<br>
