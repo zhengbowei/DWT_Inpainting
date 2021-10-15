@@ -17,6 +17,7 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Our framework
 ![framework](https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png) 
+<img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png" width="100px">
 
 ## Result
 ![result1](https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/result1.png) 
