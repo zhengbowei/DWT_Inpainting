@@ -25,13 +25,13 @@ Detailed description of the system can be found in [our paper](https://www.scien
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
 
 ## Citation
-If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).
-    @article{li2021detail,<br>
-      title={Detail-enhanced image inpainting based on discrete wavelet transforms},<br>
-      author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},<br>
-      journal={Signal Processing},<br>
-      volume={189},<br>
-      pages={108278},<br>
-      year={2021},<br>
-      publisher={Elsevier}<br>
-    }<br>
+If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).<br>
+@article{li2021detail,<br>
+   title={Detail-enhanced image inpainting based on discrete wavelet transforms},<br>
+   author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},<br>
+   journal={Signal Processing},<br>
+   volume={189},<br>
+   pages={108278},<br>
+   year={2021},<br>
+   publisher={Elsevier}<br>
+}<br>
