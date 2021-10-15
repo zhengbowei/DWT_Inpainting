@@ -13,7 +13,7 @@ some traditional exemplar-based inpainting methods, we develop a free-form spati
 (SD-mask) to assign different importance priorities for the missing pixels based on their positions, 
 enabling our method to handle missing regions with arbitrary shapes. Extensive experiments on several
 public datasets demonstrate that the proposed approach outperforms current state-of-the-art ones. 
-Detailed description of the system can be found in our paper. https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157
+Detailed description of the system can be found in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157). 
 
 # Acknowledgments
 The codes are modified from https://github.com/daa233/generative-inpainting-pytorch and https://github.com/fbcotter/pytorch_wavelets.
