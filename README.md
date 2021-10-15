@@ -1,6 +1,6 @@
 # DWT_Inpainting: Detail-Enhanced Image Inpainting Based on Discrete Wavelet Transform
-Deep-learning-based method has made great breakthroughs in image inpainting by generating visually\<br>
-plausible contents with reasonable semantic meaning. However, existing deep learning methods still\<br> 
+Deep-learning-based method has made great breakthroughs in image inpainting by generating visually
+plausible contents with reasonable semantic meaning. However, existing deep learning methods still
 suffer from distorted structures or blurry textures. To mitigate this problem, completing semantic 
 structure and enhancing textural details should be considered simultaneously. To this end, we propose 
 a twoparallel-branch completion network, where the first branch fills semantic content in spatial 
@@ -16,7 +16,7 @@ public datasets demonstrate that the proposed approach outperforms current state
 Detailed description of the system can be found in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157). 
 
 # Acknowledgments
-The codes are based on https://github.com/daa233/generative-inpainting-pytorch and https://github.com/fbcotter/pytorch_wavelets.
+    The codes are based on https://github.com/daa233/generative-inpainting-pytorch and https://github.com/fbcotter/pytorch_wavelets.
 
 # Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).
