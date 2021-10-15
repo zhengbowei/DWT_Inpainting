@@ -20,6 +20,7 @@ The codes are modified from https://github.com/daa233/generative-inpainting-pyto
 
 # Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).
+
 ` ``
 @article{li2021detail,
   title={Detail-enhanced image inpainting based on discrete wavelet transforms},
