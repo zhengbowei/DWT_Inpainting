@@ -26,12 +26,12 @@ The codes are based on [generative-inpainting-pytorch](https://github.com/daa233
 
 ## Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).
-    @article{li2021detail,
-      title={Detail-enhanced image inpainting based on discrete wavelet transforms},
-      author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},
-      journal={Signal Processing},
-      volume={189},
-      pages={108278},
-      year={2021},
-      publisher={Elsevier}
-    }
+    @article{li2021detail,<br>
+      title={Detail-enhanced image inpainting based on discrete wavelet transforms},<br>
+      author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},<br>
+      journal={Signal Processing},<br>
+      volume={189},<br>
+      pages={108278},<br>
+      year={2021},<br>
+      publisher={Elsevier}<br>
+    }<br>
