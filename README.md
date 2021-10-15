@@ -23,12 +23,20 @@ If you use this code for your research, please cite [our paper](https://www.scie
 
 ` ``
 @article{li2021detail,
+
   title={Detail-enhanced image inpainting based on discrete wavelet transforms},
+  
   author={Li, Bin and Zheng, Bowei and Li, Haodong and Li, Yanran},
+  
   journal={Signal Processing},
+  
   volume={189},
+  
   pages={108278},
+  
   year={2021},
+  
   publisher={Elsevier}
+  
 }
 ` ``
