@@ -17,11 +17,11 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Our framework
 
-<img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png" width="200px">
+<img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/network.png" width="200">
 
 ## Result
 
-<img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/result1.png" width="200px">
+<img src="https://github.com/zhengbowei/DWT_Inpainting/tree/main/picture/result1.png" width="200">
 
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
