@@ -28,10 +28,8 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Run
 ### Training
-1. Setting <br>
-   Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml). <br>
-
-2. 
+* Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml)  to set data_with_subfolder, train_data_path and other parameters.
+* Run python train.py
 
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
