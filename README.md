@@ -28,7 +28,7 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Run
 1. Training
->> * Setting
+> Setting
 * 
 2. 
 
