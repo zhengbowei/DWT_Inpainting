@@ -269,7 +269,7 @@ if __name__ == '__main__':
 
     select_data = 'val'
     select_dataroot = '/data/zbw/a/V19/CelebA-HQ/{}/'.format(select_data)
-    for iteration in range(975000, 1000000+1, 5000):
+    for iteration in range(5000, 1000000+1, 5000):
         d_mae, d_psnr, d_ssim, d_LPIPS, d_DISTS = main(select_dataroot, iteration)
 
         message = 'iteration:{}   d_mae:{}   d_psnr:{}    d_ssim:{}   d_LPIPS:{}   d_DISTS:{}'.format(iteration, d_mae, d_psnr, d_ssim, d_LPIPS, d_DISTS)
