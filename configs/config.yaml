@@ -1,37 +1,37 @@
 # data parameters
-dataset_name: CelebA-HQ
-data_with_subfolder: True
-train_data_path: /data/zbw/a/V19/CelebA-HQ/train/
-val_data_path:  /data/zbw/a/V19/CelebA-HQ/val/
-resume:
+dataset_name: CelebA-HQ # the name of dataset
+data_with_subfolder: True # whether the dataset path have subfolders or not
+train_data_path: /data/zbw/a/V19/CelebA-HQ/train/ # the path of training dataset
+val_data_path:  /data/zbw/a/V19/CelebA-HQ/val/ # ignore, do not use
+resume: # if true, the network will be trainging from pretrained model
 batch_size: 8
-image_shape: [256, 256, 3]
-mask_shape: [128, 128]
-mask_batch_same: True
-max_delta_shape: [32, 32]
+image_shape: [256, 256, 3] # the shape of image after reshapeing
+mask_shape: [128, 128] # the shape of missing region
+mask_batch_same: True # whether a batch of mask have the missing region or not
+max_delta_shape: [32, 32] # the min distance between the missing region and the image boundary
 margin: [0, 0]
 discounted_mask: True
-spatial_discounting_gamma: 0.99
-random_crop: True
-mask_type: hole     # hole | mosaic
+spatial_discounting_gamma: 0.99 # the hyperparameter of spatially discounted mask
+random_crop: True # If ture, the location of missing region will be randomly cropping in the image. If false, the location of missing region will be cropping in the center image.
+mask_type: hole # hole | mosaic
 mosaic_unit_size: 12
 
 # training parameters
 expname: benchmark
-cuda: True
-gpu_ids: [1]    # set the GPU ids to use, e.g. [0] or [1, 2]
+cuda: True # if use gpu
+gpu_ids: [1] # set the GPU ids to use, e.g. [0](single gpu) or [1, 2](multi GPU parallel training)
 num_workers: 4
-lr: 0.0001
-beta1: 0.5
-beta2: 0.9
+lr: 0.0001 # learning rate
+beta1: 0.5 # the hyperparameter of adam optimizer
+beta2: 0.9 # the hyperparameter of adam optimizer
 n_critic: 5
-niter: 1000000
+niter: 1000000 # total training iterations
 print_iter: 100
-viz_iter: 1000
-viz_max_out: 16
-snapshot_save_iter: 5000
+viz_iter: 1000 # verify the inpaintig effect every 1000 iterations
+viz_max_out:
+snapshot_save_iter: 5000 # save model training results every 5000 times
 
-# loss weight
+# loss weight: ignore, do not use
 coarse_l1_alpha: 1.2
 l1_loss_alpha: 1.2
 ae_loss_alpha: 1.2
@@ -41,10 +41,10 @@ wgan_gp_lambda: 10
 
 # network parameters
 netG:
-  wavelet_basis: db2
-  input_dim: 3
-  ngf: 32
+  wavelet_basis: db2 # types of wavelet bases, eg., db1, db2, db3, db4
+  input_dim: 3 # the input shape of the generated network 
+  ngf: 32 # the parameter of the generated network shape 
 
 netD:
-  input_dim: 3
-  ndf: 64
+  input_dim: 3 # the input shape of discriminator network 
+  ndf: 64 # the parameter of the discriminator network shape 
