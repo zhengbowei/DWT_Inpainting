@@ -28,10 +28,10 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Run
 ### Training
-1. Setting
-   Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml). 
-   Eg.
-   dataset_name: the name of dataset
+1. Setting <br>
+   Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml). <br>
+   Eg. <br>
+   dataset_name: the name of dataset <br>
 2. 
 
 ## Acknowledgments
