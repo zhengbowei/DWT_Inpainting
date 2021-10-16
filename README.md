@@ -38,7 +38,7 @@ Detailed description of the system can be found in [our paper](https://www.scien
 * Run python select_best_model.py
 * Returns the number of iterations corresponding to the best model.
 ### Testing
-* Modify parameters in [test_single.py](https://github.com/zhengbowei/DWT_Inpainting/tree/main/test_single.py) to set best model parameter.
+* Modify parameters in [test_single.py](https://github.com/zhengbowei/DWT_Inpainting/tree/main/test_single.py) to set best model parameter. <br>
    last_model_name = get_model_list(checkpoint_path, "gen", iteration=`990000`)
 * Run python test_single.py --image examples/7_raw_image.png --mask examples/7mask.png --output output.png
   
