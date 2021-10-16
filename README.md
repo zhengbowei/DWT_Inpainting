@@ -28,9 +28,20 @@ Detailed description of the system can be found in [our paper](https://www.scien
 
 ## Run
 ### Training
-* Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml)  to set data_with_subfolder, train_data_path and other parameters.
+* Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml)  to set 'data_with_subfolder', 'train_data_path' and other parameters.
 * Run python train.py
-
+### Resume training
+* Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml) to modify 'resume' parameter to True.
+* Run python train.py
+### Selecting the best model
+* Modify parameters in [select_best_model.py](https://github.com/zhengbowei/DWT_Inpainting/tree/main/select_best_model.py) to set 'select_dataroot' parameter.
+* Run python select_best_model.py
+* Returns the number of iterations corresponding to the best model.
+### Testing
+* Modify parameters in [test_single.py](https://github.com/zhengbowei/DWT_Inpainting/tree/main/test_single.py) to set best model parameter.
+   last_model_name = get_model_list(checkpoint_path, "gen", iteration=`990000`)
+* Run python test_single.py --image examples/7_raw_image.png --mask examples/7mask.png --output output.png
+  
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
 
