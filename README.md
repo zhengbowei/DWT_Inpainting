@@ -27,18 +27,15 @@ Detailed description of the system can be found in [our paper](https://www.scien
 * NVIDIA GPU + CUDA cuDNN
 
 ## Run
-1. Training
-> Setting
-* 
+### Training
+1. Setting
+   Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml). 
+   Eg.
+   dataset_name: the name of dataset
 2. 
 
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
-
-## Datasets
-
-## Getting Started
-### 1) Training
 
 ## Citation
 If you use this code for your research, please cite [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168421003157).<br>
