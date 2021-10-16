@@ -30,17 +30,7 @@ Detailed description of the system can be found in [our paper](https://www.scien
 ### Training
 1. Setting <br>
    Modify parameters in [config.yaml](https://github.com/zhengbowei/DWT_Inpainting/tree/main/configs/config.yaml). <br>
-   Eg., <br>
-   dataset_name: the name of dataset <br>
-   data_with_subfolder: whether the dataset path have subfolders or not <br>
-   train_data_path: the path of training dataset
-   val_data_path: ignore, do not use
-   batch_size: 8
-   image_shape: the shape of image after reshapeing
-   mask_shape: the shape of missing region
-   mask_batch_same: whether a batch of mask have the missing region or not <br>
-   spatial_discounting_gamma: the hyperparameter of spatially discounted mask
-   random_crop: If ture, the location of missing region will be randomly cropping in the image. If false, the location of missing region will be cropping in the center image.
+
 2. 
 
 ## Acknowledgments
