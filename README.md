@@ -26,6 +26,11 @@ Detailed description of the system can be found in [our paper](https://www.scien
 * PyTorch 1.1.0
 * NVIDIA GPU + CUDA cuDNN
 
+## Run
+1. Training
+  * Python 3
+2. 
+
 ## Acknowledgments
 The codes are based on [generative-inpainting-pytorch](https://github.com/daa233/generative-inpainting-pytorch) and  [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
 
